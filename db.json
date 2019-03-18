@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "users": [
+    { "id": 1, "user_name": "User1", "age": 24, "self_introduction": "I am special", "avatar_url": "https://picsum.photos/200/300/?random
+"},
+{ "id": 2, "user_name": "User2", "age": 25, "self_introduction": "I am special too", "avatar_url": "https://picsum.photos/200/300/?random
+"},
+     { "id": 3, "user_name": "User2", "age": 26, "self_introduction": "I am really special", "avatar_url": "https://picsum.photos/200/300/?random
+"},
+     { "id": 4, "user_name": "User2", "age": 27, "self_introduction": "I am not that special", "avatar_url": "https://picsum.photos/200/300/?random
+"},
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Special man"
   }
 }
